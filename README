@@ -1,0 +1,19 @@
+- `a5_main.c`: 
+ Main program for interacting with the IMFFS.
+- `a5_imffs.c` and `a5_imffs.h`: 
+Implementation and header file for the IMFFS.
+- `a5_multimap.c` and `a5_multimap.h`: 
+Implementation and header file for the multimap.
+- `a5_test_mm.c`: 
+Test program for the multimap.
+- `a4_tests.c` and `a4_tests.h`: 
+Implementation and header file for common tests.
+- `Makefile`:
+Makefile for building the programs.
+
+- `imffs_defrag`:
+
+(I attempted it but, i didn't have enought time to solve it);
+The imffs_defrag function attempts to defragment the specified IMFFS (In-Memory Filesystem) by rearranging blocks to optimize space usage. This function is a work in progress and may not perform as intended.
+
+This defragmentation feature is not yet complete and may not work as expected. Certain parts of the code are commented out, and the functionality for handling multiple values during the defragmentation process is not fully implemented.
